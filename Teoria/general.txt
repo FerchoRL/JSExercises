@@ -1,0 +1,40 @@
+Debilmente tipado
+
+Se pueden realizar operaciones como las siguientes
+
+4 + "7"; // 47
+4 * "7"; // 28
+2 + true // 3
+false - 3; // -3
+
+Coerciones implicitas y explicitas
+
+Implicitas: Lenguaje nos ayuda y cambia de un tipo de valor a otro tipo de valor
+4 + "7"; // 47(Es string)
+
+explicitas
+Nosotros obligamos a que un valor de un tipo cambien a otro tipo (Casteo)
+TODO: Investigar los tipos de casteo para JS y hacer ejemplos
+
+
+Dinamico
+No necesita de un compilador para funcionar
+
+Elementos que usaremos: Data que guardamos en memoria
+Tareas (funciones) que haremos con esa data
+
+ECMAScript es la especificación del lenguaje JavaScript propuesto por ECMA Internacional, que es la institución encargada de los estándares, y JavaScript, es el lenguaje de programación que utiliza las especificaciones propuestas, que van siendo añadidas cada año a partir del 2015, cuando fue lanzado ES6.
+
+
+con la extension code runner de visual studio code puedo correr pedazos de codigo. Solo debo seleccionarlos, click derecho y run code
+
+
+Asincronismo: JS no es sincronoco (no puede ejecutar muchos elementos al mismo tiempo). Va ejecutando elemento por elemento.
+
+Para resolver esto incorporaron las promesas. (Algo va a pasar)
+
+Devuelve dos elementos:
+	Resolve (se ha resuelto)
+	Reject (ha sido rechazada)
+
+https://platzi.com/cursos/ecmascript-6/
